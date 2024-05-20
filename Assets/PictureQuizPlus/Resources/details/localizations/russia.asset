@@ -221,10 +221,7 @@ MonoBehaviour:
       cost: 0
       reward: 10
       imageText: 
-      wrongAnswers:
-      - paris
-      - moscow
-      - munchen
+      wrongAnswers: []
       imageDescription: 
       number: 3
     - index: 4
