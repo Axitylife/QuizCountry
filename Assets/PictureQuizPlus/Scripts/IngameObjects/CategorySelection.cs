@@ -165,7 +165,7 @@ public class CategorySelection : MonoBehaviour //Component class for directorys 
             go.transform.Find("Bar/Progress/Text").GetComponent<Text>().text = category.CompletedLength + "\u002f" + category.Length;
             if (category is SubCategory)
             {
-                go.transform.Find("Bar/Progress/Text/Folder").gameObject.SetActive(true);
+               // go.transform.Find("Bar/Progress/Text/Folder").gameObject.SetActive(true);
             }
             RectTransform bar = go.transform.Find("Bar/ProgressBar").GetComponent<RectTransform>();
             float barPercent = (float)category.CompletedLength / (float)category.Length;
