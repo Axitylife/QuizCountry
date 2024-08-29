@@ -19,6 +19,7 @@ public class LanguagesPopup : MonoBehaviour, IGenericPopup
 
     public void OnOpen()
     {
+         
         foreach (var item in GameController.Instance.Localizations)
         {
             GameObject temp = Instantiate(language, transform);
@@ -38,7 +39,7 @@ public class LanguagesPopup : MonoBehaviour, IGenericPopup
         PlayerPrefs.SetInt("lang_chosen", 1);
         if (PlayerPrefs.GetString("language") == lang)
         {
-            /* GameObject loadingCircle = Utils.CreateFromPrefab("LoadingCircle");
+           /* GameObject loadingCircle = Utils.CreateFromPrefab("LoadingCircle");
             GameObject loadingCircleInstantiated = Instantiate(loadingCircle, Utils.getRootTransform());
             yield return new WaitForSeconds(1f);
             Destroy(loadingCircleInstantiated); */

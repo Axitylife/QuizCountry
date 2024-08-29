@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class MainMenuManager : MonoBehaviour
 {
     public Transform mainTransform, categories, buttons, languagePopup;
-    public Button play, about, exit, back, sounds, settings, debug, moregames; //Buttons references
+    public Button play, /*about,*/ exit, back, /*sounds, */settings/*, debug*/;//moregames; //Buttons references
 
     public void Awake()
     {
@@ -19,10 +19,10 @@ public class MainMenuManager : MonoBehaviour
             categories.gameObject.SetActive(false);
             buttons.gameObject.SetActive(true);
         };
-        if (GameController.Instance.IsSettingsReady)
+       /* if (GameController.Instance.IsSettingsReady)
         {
             moregames.gameObject.SetActive(GameController.Instance.IsMoreGamesEnabled);
-        }
+        }*/
     }
 
     private IEnumerator Initialize()
@@ -32,23 +32,23 @@ public class MainMenuManager : MonoBehaviour
 
         categories.gameObject.SetActive(false);
 
-        if (GameController.Instance.DebugButton)
+        /*if (GameController.Instance.DebugButton)
         {
-            debug.gameObject.SetActive(true);
-            debug.gameObject.GetComponent<DebugButton>().Subscribe(0);
+           // debug.gameObject.SetActive(true);
+           // debug.gameObject.GetComponent<DebugButton>().Subscribe(0);
+        }*/
+        /*if (!GameController.Instance.AboutButton)
+        {
+            //about.gameObject.SetActive(false);
         }
-        if (!GameController.Instance.AboutButton)
+        else*/
         {
-            about.gameObject.SetActive(false);
-        }
-        else
-        {
-            about.onClick.AddListener(() =>
+           // about.onClick.AddListener(() =>*/
         {
             SoundsController.instance.PlaySound("blup");
-            // GameController.Instance.popup.Open<AboutPopup>(ThemeColorEnum.Primary);
             GameController.Instance.popup.Open<AboutPopup>(ThemeColorEnum.Primary);
-        });
+           // GameController.Instance.popup.Open<AboutPopup>(ThemeColorEnum.Primary);
+        };
         }
         settings.onClick.AddListener(() =>
         {
@@ -58,15 +58,15 @@ public class MainMenuManager : MonoBehaviour
             {
                 if (!SoundsController.instance.isMusic && !SoundsController.instance.isSounds)
                 {
-                    float currentAlpha = sounds.GetComponent<Image>().color.a;
-                    if (currentAlpha == 0.5f) return;
-                    sounds.GetComponent<Image>().color -= new Color(0, 0, 0, 0.5f);
+                    //float currentAlpha = sounds.GetComponent<Image>().color.a;
+                   // if (currentAlpha == 0.5f) return;
+                   // sounds.GetComponent<Image>().color -= new Color(0, 0, 0, 0.5f);
                 }
                 else
                 {
-                    float currentAlpha = sounds.GetComponent<Image>().color.a;
-                    if (currentAlpha == 1f) return;
-                    sounds.GetComponent<Image>().color += new Color(0, 0, 0, 0.5f);
+                   // float currentAlpha = sounds.GetComponent<Image>().color.a;
+                  //  if (currentAlpha == 1f) return;
+                    //sounds.GetComponent<Image>().color += new Color(0, 0, 0, 0.5f);
                 }
             };
         });
@@ -77,18 +77,18 @@ public class MainMenuManager : MonoBehaviour
 
         if (!SoundsController.instance.isMusic && !SoundsController.instance.isSounds)
         {
-            sounds.GetComponent<Image>().color -= new Color(0, 0, 0, 0.5f);
+           // sounds.GetComponent<Image>().color -= new Color(0, 0, 0, 0.5f);
         }
         //Add OnClick methods to all buttons
         play.onClick.AddListener(PlayHandler);
         exit.onClick.AddListener(() => Application.Quit());
-        sounds.onClick.AddListener(() => Utils.ToggleSoundsAndMusic(sounds));
-        moregames.onClick.AddListener(() =>
+       // sounds.onClick.AddListener(() => Utils.ToggleSoundsAndMusic(sounds));
+        /*moregames.onClick.AddListener(() =>
         {
             SoundsController.instance.PlaySound("blup");
-            GameController.Instance.popup.Open<MoreGamesPopup>(ThemeColorEnum.Light);
+            //GameController.Instance.popup.Open<MoreGamesPopup>(ThemeColorEnum.Light);
 
-        });
+        };*/
         if (GameController.Instance.IsCategoryCompleted)
         {
             GameController.Instance.IsCategoryCompleted = false;

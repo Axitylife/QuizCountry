@@ -13,544 +13,105 @@ MonoBehaviour:
   m_Name: english
   m_EditorClassIdentifier: 
   tasksData:
-  - name: Animals
-    folderName: Animals
-    localizedName: Animals
-    gameType: 2
+  - name: 
+    folderName: Countries1
+    localizedName: Countries
+    gameType: 0
     useMixedTypes: 0
     sortingIndex: 1
     forceNoImage: 0
-    orderNumber: 1
-    Levels:
-    - index: 1
-      gameType: 2
-      rightAnswer: giraffe
-      noImage: 0
-      cost: 40
-      reward: 40
-      imageText: 
-      wrongAnswers: []
-      imageDescription: The highest land animal on the planet.
-      number: 2
-    - index: 2
-      gameType: 2
-      rightAnswer: lion
-      noImage: 0
-      cost: 40
-      reward: 40
-      imageText: 
-      wrongAnswers: []
-      imageDescription: Animals king
-      number: 1
-    - index: 3
-      gameType: 2
-      rightAnswer: hippo
-      noImage: 0
-      cost: 60
-      reward: 60
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 3
-    - index: 4
-      gameType: 2
-      rightAnswer: panda
-      noImage: 0
-      cost: 40
-      reward: 40
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 4
-    - index: 5
-      gameType: 2
-      rightAnswer: sloth
-      noImage: 0
-      cost: 70
-      reward: 70
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 5
-    - index: 6
-      gameType: 2
-      rightAnswer: dog
-      noImage: 0
-      cost: 50
-      reward: 50
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 6
-    - index: 7
-      gameType: 2
-      rightAnswer: eagle
-      noImage: 0
-      cost: 70
-      reward: 70
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 7
-    - index: 8
-      gameType: 2
-      rightAnswer: mouse
-      noImage: 0
-      cost: 60
-      reward: 60
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 8
-    - index: 9
-      gameType: 2
-      rightAnswer: bear
-      noImage: 0
-      cost: 50
-      reward: 50
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 9
-    - index: 10
-      gameType: 2
-      rightAnswer: hare
-      noImage: 0
-      cost: 40
-      reward: 40
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 10
-  - name: Famous
-    folderName: Famous
-    localizedName: Famous
-    gameType: 1
-    useMixedTypes: 0
-    sortingIndex: 5
-    forceNoImage: 0
-    orderNumber: 5
-    Levels:
-    - index: 1
-      gameType: 1
-      rightAnswer: Lincoln
-      noImage: 0
-      cost: 30
-      reward: 30
-      imageText: 
-      wrongAnswers:
-      - Roosevelt
-      - Eminem
-      - Mark Twain
-      imageDescription: American lawyer and statesman who served as the 16th president
-        of the United States
-      number: 1
-    - index: 2
-      gameType: 1
-      rightAnswer: presley
-      noImage: 0
-      cost: 50
-      reward: 50
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 2
-    - index: 3
-      gameType: 1
-      rightAnswer: einstein
-      noImage: 0
-      cost: 50
-      reward: 50
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 3
-    - index: 4
-      gameType: 1
-      rightAnswer: cobain
-      noImage: 0
-      cost: 60
-      reward: 60
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 4
-    - index: 5
-      gameType: 1
-      rightAnswer: Taylor
-      noImage: 0
-      cost: 70
-      reward: 70
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 5
-  - name: Countries
-    folderName: Countries
-    localizedName: Countries
-    gameType: 3
-    useMixedTypes: 0
-    sortingIndex: 7
-    forceNoImage: 0
-    orderNumber: 7
-    Levels:
-    - index: 1
-      gameType: 3
-      rightAnswer: giza
-      noImage: 0
-      cost: 0
-      reward: 0
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 1
-    - index: 2
-      gameType: 3
-      rightAnswer: sydney
-      noImage: 0
-      cost: 0
-      reward: 0
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 2
-    - index: 3
-      gameType: 3
-      rightAnswer: pisa
-      noImage: 0
-      cost: 0
-      reward: 0
-      imageText: 
-      wrongAnswers:
-      - paris
-      - moscow
-      - munchen
-      imageDescription: 
-      number: 3
-    - index: 4
-      gameType: 3
-      rightAnswer: paris
-      noImage: 0
-      cost: 0
-      reward: 0
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 4
-    - index: 5
-      gameType: 3
-      rightAnswer: newyork
-      noImage: 0
-      cost: 0
-      reward: 0
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 5
-    - index: 6
-      gameType: 3
-      rightAnswer: agra
-      noImage: 0
-      cost: 0
-      reward: 0
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 6
-    - index: 7
-      gameType: 3
-      rightAnswer: moscow
-      noImage: 0
-      cost: 0
-      reward: 0
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 7
-  - name: Puzzle
-    folderName: Puzzle
-    localizedName: Puzzle
-    gameType: 0
-    useMixedTypes: 1
-    sortingIndex: 6
-    forceNoImage: 0
-    orderNumber: 6
+    orderNumber: 0
     Levels:
     - index: 1
       gameType: 0
-      rightAnswer: evolution
+      rightAnswer: australia
       noImage: 0
       cost: 0
-      reward: 0
+      reward: 10
       imageText: 
       wrongAnswers: []
       imageDescription: 
-      number: 1
+      number: 0
+    - index: 2
+      gameType: 0
+      rightAnswer: sweden
+      noImage: 0
+      cost: 0
+      reward: 10
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 0
+    - index: 3
+      gameType: 0
+      rightAnswer: germany
+      noImage: 0
+      cost: 0
+      reward: 10
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 0
+    - index: 4
+      gameType: 0
+      rightAnswer: brazil
+      noImage: 0
+      cost: 0
+      reward: 10
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 0
+    - index: 5
+      gameType: 0
+      rightAnswer: poland
+      noImage: 0
+      cost: 0
+      reward: 10
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 0
+    - index: 6
+      gameType: 0
+      rightAnswer: mexico
+      noImage: 0
+      cost: 0
+      reward: 10
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 0
+    - index: 7
+      gameType: 0
+      rightAnswer: algeria
+      noImage: 0
+      cost: 0
+      reward: 10
+      imageText: 
+      wrongAnswers: []
+      imageDescription: 
+      number: 0
     - index: 8
       gameType: 0
-      rightAnswer: televisor
+      rightAnswer: france
       noImage: 0
       cost: 0
-      reward: 0
+      reward: 10
       imageText: 
       wrongAnswers: []
       imageDescription: 
-      number: 2
+      number: 0
     - index: 9
       gameType: 0
-      rightAnswer: mosquito
+      rightAnswer: france
       noImage: 0
       cost: 0
-      reward: 0
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 3
-    - index: 4
-      gameType: 0
-      rightAnswer: chocolate
-      noImage: 0
-      cost: 0
-      reward: 0
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 4
-    - index: 5
-      gameType: 0
-      rightAnswer: autumn
-      noImage: 0
-      cost: 0
-      reward: 0
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 5
-    - index: 6
-      gameType: 0
-      rightAnswer: lamp
-      noImage: 0
-      cost: 0
-      reward: 0
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 6
-    - index: 7
-      gameType: 0
-      rightAnswer: backpack
-      noImage: 0
-      cost: 0
-      reward: 0
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 7
-    - index: 3
-      gameType: 3
-      rightAnswer: giza
-      noImage: 0
-      cost: 0
-      reward: 0
-      imageText: 
-      wrongAnswers:
-      - iza
-      - gza
-      - gzia
-      imageDescription: 
-      number: 0
-    - index: 2
-      gameType: 2
-      rightAnswer: lincoln
-      noImage: 0
-      cost: 0
-      reward: 0
+      reward: 10
       imageText: 
       wrongAnswers: []
       imageDescription: 
       number: 0
-  - name: Sport
-    folderName: Sport
-    localizedName: Sport
-    gameType: 0
-    useMixedTypes: 0
-    sortingIndex: 4
-    forceNoImage: 0
-    orderNumber: 4
-    Levels:
-    - index: 1
-      gameType: 4
-      rightAnswer: Uruguay
-      noImage: 1
-      cost: 0
-      reward: 0
-      imageText: This national team won the first football World Cup
-      wrongAnswers: []
-      imageDescription: 
-      number: 1
-    - index: 2
-      gameType: 6
-      rightAnswer: Golf
-      noImage: 0
-      cost: 0
-      reward: 0
-      imageText: What kind of sport also uses a stick
-      wrongAnswers: []
-      imageDescription: 
-      number: 2
-    - index: 3
-      gameType: 1
-      rightAnswer: Japan
-      noImage: 0
-      cost: 0
-      reward: 0
-      imageText: The host of the Summer Olympic Games in 2020
-      wrongAnswers: []
-      imageDescription: 
-      number: 3
-    - index: 4
-      gameType: 4
-      rightAnswer: Scotland
-      noImage: 0
-      cost: 0
-      reward: 0
-      imageText: "\u0421urling originated in this country"
-      wrongAnswers: []
-      imageDescription: 
-      number: 4
-    - index: 5
-      gameType: 4
-      rightAnswer: cybersport
-      noImage: 0
-      cost: 0
-      reward: 0
-      imageText: What are the computer games competitions
-      wrongAnswers: []
-      imageDescription: 
-      number: 5
-  - name: Erudition
-    folderName: Erudition
-    localizedName: Erudition
-    gameType: 0
-    useMixedTypes: 0
-    sortingIndex: 2
-    forceNoImage: 0
-    orderNumber: 2
-    Levels:
-    - index: 1
-      gameType: 5
-      rightAnswer: tail
-      noImage: 0
-      cost: 0
-      reward: 0
-      imageText: Beaver accumulates fat in this part of the body
-      wrongAnswers:
-      - thighs
-      - stomach
-      - chest
-      imageDescription: 
-      number: 1
-    - index: 2
-      gameType: 5
-      rightAnswer: Mercury
-      noImage: 1
-      cost: 30
-      reward: 30
-      imageText: Planet closest to the Sun
-      wrongAnswers:
-      - Venus
-      - Mars
-      - Uranus
-      imageDescription: 
-      number: 2
-    - index: 3
-      gameType: 5
-      rightAnswer: dead sea
-      noImage: 0
-      cost: 40
-      reward: 40
-      imageText: What is the most salty sea
-      wrongAnswers:
-      - black sea
-      - North Sea
-      - Caribbean Sea
-      imageDescription: 
-      number: 3
-    - index: 4
-      gameType: 5
-      rightAnswer: Kilimanjaro
-      noImage: 0
-      cost: 60
-      reward: 60
-      imageText: The highest mountain in africa
-      wrongAnswers:
-      - Stanley
-      - Kenya
-      - Baker
-      imageDescription: 
-      number: 4
-    - index: 5
-      gameType: 5
-      rightAnswer: The Toll of the Sea
-      noImage: 0
-      cost: 70
-      reward: 70
-      imageText: The first color Hollywood film
-      wrongAnswers:
-      - The Stoker
-      - Where the North Begin
-      - Vanity Fair
-      imageDescription: 
-      number: 5
-    - index: 6
-      gameType: 0
-      rightAnswer: '?'
-      noImage: 0
-      cost: 0
-      reward: 0
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 0
-  - name: Four Images
-    folderName: Four Images
-    localizedName: Four Images
-    gameType: 4
-    useMixedTypes: 0
-    sortingIndex: 3
-    forceNoImage: 0
-    orderNumber: 3
-    Levels:
-    - index: 1
-      gameType: 6
-      rightAnswer: wood
-      noImage: 0
-      cost: 0
-      reward: 0
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 1
-    - index: 2
-      gameType: 6
-      rightAnswer: circle
-      noImage: 0
-      cost: 30
-      reward: 30
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 2
-    - index: 3
-      gameType: 6
-      rightAnswer: fire
-      noImage: 0
-      cost: 40
-      reward: 40
-      imageText: 
-      wrongAnswers: []
-      imageDescription: 
-      number: 3
   gameItems:
   - key: 0
     value: Play
@@ -698,8 +259,8 @@ MonoBehaviour:
     value: 
   subCategories:
   - iconName: 
-    name: Abstract
-    localizedTitle: Abstract
+    name: Countries
+    localizedTitle: Countries
     subcategories:
     - Erudition
     - Four Images

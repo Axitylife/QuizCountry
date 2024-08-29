@@ -524,8 +524,8 @@ public class GameSettingsEditor : Editor //To override AdsIapSettings class inst
             MainMenuManager menu = FindObjectOfType<MainMenuManager>();
             if (menu != null)
             {
-                menu.about?.gameObject.SetActive(targetInstance.aboutButton);
-                menu.moregames?.gameObject.SetActive(targetInstance.isMoreGamesEnabled);
+                //menu.about?.gameObject.SetActive(targetInstance.aboutButton);
+              //  menu.moregames?.gameObject.SetActive(targetInstance.isMoreGamesEnabled);
             }
             SceneView.RepaintAll();
 

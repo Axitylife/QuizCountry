@@ -46,7 +46,7 @@ public class SoundsController : MonoBehaviour //Handle music and sounds in the g
         }
         catch (System.Exception)
         {
-            Debug.LogError("There are no sounds available");
+           //Debug.LogError("There are no sounds available");
         }
 
         //AddNewSounds(newSounds);

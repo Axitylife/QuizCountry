@@ -31,7 +31,8 @@ public class SettingsPopup : MonoBehaviour, IGenericPopup
         language.onClick.AddListener(() =>
         {
             SoundsController.instance.PlaySound("menus");
-            GameController.Instance.popup.OpenNextPage<LanguagesPopup>();
+            GameController.Instance.popup.OpenNextPage<LanguagesPopup>();  
+            language.gameObject.SetActive(true);    
         });
 
         gdpr.onClick.AddListener(() =>
@@ -44,7 +45,7 @@ public class SettingsPopup : MonoBehaviour, IGenericPopup
 
     }
 
-
+    
     private IEnumerator HandleGooglePlayBtn()
     {
         yield return new WaitUntil(() =>

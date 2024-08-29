@@ -95,7 +95,7 @@ public class TextureScaler //Class that using multithreading to render scaled Er
       }
     }
 
-    tex.Resize(newWidth, newHeight);
+    tex.Reinitialize(newWidth, newHeight);
     tex.SetPixels(newColors);
     tex.Apply();
 

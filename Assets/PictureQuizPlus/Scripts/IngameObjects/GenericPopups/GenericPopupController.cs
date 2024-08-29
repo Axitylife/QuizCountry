@@ -49,7 +49,7 @@ public class GenericPopupController : MonoBehaviour
         GameObject current = pages[currentPage];
         current.SetActive(false);
         GameObject content = Utils.CreateFromPrefab(new string[] { "GenericPopups", typeof(T).Name });
-        // content.SetActive(false);
+        content.SetActive(false);
         GameObject instantiated = container.SetContent(content);
         IGenericPopup popupContent = instantiated.GetComponent<T>();
         container.SetTitle(Utils.Capitalize(GameController.Instance.GetLocalizedValue(popupContent.title)));
@@ -139,7 +139,7 @@ public class GenericPopupController : MonoBehaviour
 
             PopupQueueItem item = queue.Dequeue();
             GameObject instantiated = container.SetContent(item.popupPrefab);
-            // content.SetActive(false);
+            //content.SetActive(false);
             IGenericPopup popupContent = instantiated.GetComponent<IGenericPopup>();
             container.SetTitle(Utils.Capitalize(GameController.Instance.GetLocalizedValue(popupContent.title)));
             container.SetColor(item.color);
